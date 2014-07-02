@@ -1,5 +1,5 @@
 // initialize Hoodie
-var hoodie  = new Hoodie('http://michielbdejong:6001/')
+var hoodie  = new Hoodie('http://michielbdejong.com:6001/')
 
 // initial load of all todo items from the store
 hoodie.store.findAll('todo').then( function(todos) {
